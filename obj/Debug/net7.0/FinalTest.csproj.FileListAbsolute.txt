@@ -1,0 +1,15 @@
+D:\GeekBrainsFinalTest\FinalTest\bin\Debug\net7.0\FinalTest.exe
+D:\GeekBrainsFinalTest\FinalTest\bin\Debug\net7.0\FinalTest.deps.json
+D:\GeekBrainsFinalTest\FinalTest\bin\Debug\net7.0\FinalTest.runtimeconfig.json
+D:\GeekBrainsFinalTest\FinalTest\bin\Debug\net7.0\FinalTest.dll
+D:\GeekBrainsFinalTest\FinalTest\bin\Debug\net7.0\FinalTest.pdb
+D:\GeekBrainsFinalTest\FinalTest\obj\Debug\net7.0\FinalTest.csproj.AssemblyReference.cache
+D:\GeekBrainsFinalTest\FinalTest\obj\Debug\net7.0\FinalTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrainsFinalTest\FinalTest\obj\Debug\net7.0\FinalTest.AssemblyInfoInputs.cache
+D:\GeekBrainsFinalTest\FinalTest\obj\Debug\net7.0\FinalTest.AssemblyInfo.cs
+D:\GeekBrainsFinalTest\FinalTest\obj\Debug\net7.0\FinalTest.csproj.CoreCompileInputs.cache
+D:\GeekBrainsFinalTest\FinalTest\obj\Debug\net7.0\FinalTest.dll
+D:\GeekBrainsFinalTest\FinalTest\obj\Debug\net7.0\refint\FinalTest.dll
+D:\GeekBrainsFinalTest\FinalTest\obj\Debug\net7.0\FinalTest.pdb
+D:\GeekBrainsFinalTest\FinalTest\obj\Debug\net7.0\FinalTest.genruntimeconfig.cache
+D:\GeekBrainsFinalTest\FinalTest\obj\Debug\net7.0\ref\FinalTest.dll

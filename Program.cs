@@ -17,7 +17,7 @@ string[,] FillArray(string[,] list)
     {
         for (int j = 0; j < list.GetLength(1); j++)
         {
-            Console.Write($"Введите значение строки {1+i} колонки{1+j}: ");
+            Console.Write($"Введите значение строки {1+i} колонки {1+j}: ");
             list[i,j]=Convert.ToString(Console.ReadLine());
         }
     }

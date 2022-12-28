@@ -26,8 +26,19 @@ string[,] FillArray(string[,] list)
     }
     return list;
 }
- void PrintArrayTwo(string [,] matr)
+
+void PrintArray(string[] array)
 {
+    for (int j = 0; j < array.Length; j++)
+    {
+        Console.Write(array[j] + " ");
+    }
+}
+
+
+void PrintArrayTwo(string [,] matr)
+{
+    
     for (int i = 0; i < matr.GetLength(0); i++)
     {
         for (int j = 0; j < matr.GetLength(1); j++)
@@ -35,7 +46,43 @@ string[,] FillArray(string[,] list)
             System.Console.Write($"{matr[i,j]} \t");
         }
         System.Console.WriteLine();
+    }   
+
+}
+
+string [] ThreeElemntsInArray (string [,] matr, int value) {
+    
+    int index = 0;
+    string[] secondArray = new string [value];
+       
+    for (int i = 0; i < matr.GetLength(0); i++)
+    {
+        for (int j = 0; j < matr.GetLength(1); j++)
+        {
+            if (matr[i,j].Length <=3) {
+                
+                secondArray[index] = matr[i,j];
+                index++;
+            
+            }
+            
+        }
+    }    
+
+    return secondArray;
+}
+
+int ValueOfElementsInArray (string [,] matr) {
+    int index = 0;   
+    
+    for (int i = 0; i < matr.GetLength(0); i++)
+    {
+        for (int j = 0; j < matr.GetLength(1); j++)
+        {
+            if (matr[i,j].Length <= 3) index++;
+        }
     }
+    return index;
 }
 
 int m = IntegerPrompt("Введите количество строк ");
@@ -44,3 +91,7 @@ int n = IntegerPrompt("Введите колличество столбцов ")
 string [,] array = new string[m,n];
 
 PrintArrayTwo(FillArray(array));
+string [] rows = ThreeElemntsInArray(array, ValueOfElementsInArray(array));
+
+Console.WriteLine("Отсортированный массив:");
+PrintArray(rows);
